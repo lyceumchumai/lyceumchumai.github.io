@@ -26,11 +26,11 @@
 					<div class="nav__wrapper">
 						<i class="fa-solid fa-bars nav-toggler"></i>
 						<ul>
-							<li><button class="scroll-to">Расписание</button></li>
-							<li><button class="scroll-to">Новости</button></li>
-							<li><button class="scroll-to">Мероприятия</button></li>
-							<li><button class="scroll-to">Учителя</button></li>
-							<li><button class="scroll-to">Контакты</button></li>
+							<li><button type="button" class="scroll-to" data-scroll="schedule">Расписание</button></li>
+							<li><button type="button" class="scroll-to" data-scroll="events">Мероприятия</button></li>
+							<li><button type="button" class="scroll-to" data-scroll="staff">Учителя</button></li>
+							<li><button type="button" class="scroll-to" data-scroll="gallery">Галерея</button></li>
+							<li><button type="button" class="scroll-to" data-scroll="footer">Контакты</button></li>
 						</ul>
 					</div>
 				</div>
@@ -39,7 +39,7 @@
 		<h1 class="intro-title">Теоретический Лицей<br> с.Чумай</h1>
 	</header>
 	<main class="main">
-		<section class="about">
+		<section class="about" id="about">
 			<div class="container">
 				<h1 class="section-title">
 					О Лицее
@@ -132,7 +132,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="schedule">
+		<section class="schedule" id="schedule">
 			<div class="section-title">
 				Расписание Звонков
 			</div>
@@ -175,7 +175,7 @@
 				</tr>
 			</table>
 		</section>
-		<section class="staff">
+		<section class="staff" id="staff">
 			<div class="section-title">Учительский состав</div>
 			<div class="container">
 				<div class="row">
@@ -286,7 +286,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="events">
+		<section class="events" id="events">
 			<div class="section-title">Мероприятия</div>
 			<div class="container">
 				<div class="row">
@@ -302,7 +302,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="gallery">
+		<section class="gallery" id="gallery">
 			<div class="section-title">Фотографии</div>
 			<div class="container">
 				<div class="row">
@@ -319,7 +319,7 @@
 			</div>
 		</section>
 	</main>
-	<footer class="footer">
+	<footer class="footer" id="footer">
 		<div class="container">
 			<div class="info">
 				<div class="card">
@@ -356,6 +356,6 @@
 			Designed by <i>Ben</i>
 		</span>
 	</footer>
-	<script src="js/main.js"></script>
+	<script type="module" src="js/main.js"></script>
 </body>
 </html>
