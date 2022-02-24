@@ -1,0 +1,38 @@
+.info
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+  @media screen and (min-width: 768px)
+    flex-direction: row;
+  .card
+    width: 250px;
+    height: 130px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    &-icon
+      width: 70px;
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      background: $primaryColor;
+      position: absolute;
+      top: -35px;
+      i
+        font-size: 1.7rem;
+        color: #fff;
+    &-content
+      text-transform: uppercase;
+.copyright
+  margin-top: 10px;
+  text-align: center;
+  &-text
+    margin: 0;
+    font-weight: 700;
+
