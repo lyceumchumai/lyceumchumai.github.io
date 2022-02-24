@@ -1,4 +1,4 @@
-const navToggler = document.querySelector(".nav_toggler")
+const navToggler = document.querySelector(".nav-toggler")
 const navList = document.querySelector(".nav ul")
 const navItems = navList.querySelectorAll("li")
 
