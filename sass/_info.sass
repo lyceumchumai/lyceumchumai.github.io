@@ -12,6 +12,7 @@
     background: #fff;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     position: relative;
     &-icon
@@ -24,10 +25,13 @@
       background: $primaryColor;
       position: absolute;
       top: -35px;
+      &:hover i
+        transform: scale(110%);
       i
         font-size: 1.7rem;
         color: #fff;
-    &-content
+        transition: .2s ease-in;
+    &-title
       text-transform: uppercase;
 .copyright
   margin-top: 10px;
