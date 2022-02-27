@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,QAAQ,AAAC,CACP,cAAc,CAAE,IAAI,CAUa,AAXnC,AAEE,QAFM,CAEN,IAAI,AAAC,CACH,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,MAAM,CAAG,AAJ9B,AAKE,QALM,CAKN,eAAe,AAAC,CACd,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,KAAK,CACb,aAAa,CAAE,IAAI,CACnB,UAAU,CAAE,WAAW,CAEM,AAXjC,AAUI,QAVI,CAKN,eAAe,AAKZ,MAAM,AAAC,CACN,SAAS,CAAE,WAAW,CAAG",
-    "sources": [
-        "../sass/gallery.sass"
-    ],
-    "names": [],
-    "file": "gallery.min.css"
-}
