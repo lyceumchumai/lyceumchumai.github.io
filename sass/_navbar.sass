@@ -1,52 +1,52 @@
 .navbar
   &-brand
-    display: none;
-    justify-content: center;
-    background: rgba(#000, .8);
-    padding: 19px 0;
+    display: none
+    justify-content: center
+    background: rgba(#000, .8)
+    padding: 19px 0
     @media screen and (min-width: 768px)
-        display: flex;
+        display: flex
   .nav
-    // background: linear-gradient(90deg, $secondaryColor 0%, lighten($secondaryColor, 10%) 47%, $primaryColor 100%);
-    background: linear-gradient(90deg, rgba($secondaryColor,.9) 0%, lighten(rgba($secondaryColor,.9), 10%) 47%, rgba($primaryColor,.9) 100%);
+    // background: linear-gradient(90deg, $secondaryColor 0%, lighten($secondaryColor, 10%) 47%, $primaryColor 100%)
+    background: linear-gradient(90deg, rgba($secondaryColor,.9) 0%, lighten(rgba($secondaryColor,.9), 10%) 47%, rgba($primaryColor,.9) 100%)
     &__wrapper
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
+        display: flex
+        justify-content: center
+        flex-direction: column
     &-toggler
-      color: #fff;
-      font-size: 2rem;
-      text-align: center;
-      padding: 8px;
+      color: #fff
+      font-size: 2rem
+      text-align: center
+      padding: 8px
       
       @media screen and (min-width: 768px)
-        display: none;
+        display: none
     ul
-      margin: 0;
-      padding: 0;
-      display: none;
-      flex-direction: column;
-      justify-content: center;
+      margin: 0
+      padding: 0
+      display: none
+      flex-direction: column
+      justify-content: center
       &.open
-        display: flex;
+        display: flex
       @media screen and (min-width: 768px)
-          flex-direction: row;
-          display: flex;
-      flex-wrap: wrap;
+          flex-direction: row
+          display: flex
+      flex-wrap: wrap
       li
-        list-style-type: none;
-        text-align: center;
+        list-style-type: none
+        text-align: center
         button
-          background: 0;
-          border: none;
-          padding: 17px 17px;
-          font-family: $secondaryFont;
-          font-size: .9rem;
-          font-weight: 700;
-          color: #fff;
-          cursor: pointer;
-          transition: background-color .3s ease-in-out;
-          text-shadow: 1px 1px rgba(#000,.1);
-          text-transform: uppercase;
+          background: 0
+          border: none
+          padding: 17px 17px
+          font-family: $secondaryFont
+          font-size: .9rem
+          font-weight: 700
+          color: #fff
+          cursor: pointer
+          transition: background-color .3s ease-in-out
+          text-shadow: 1px 1px rgba(#000,.1)
+          text-transform: uppercase
           &:hover
-            background-color: rgba(#fff,.2);
+            background-color: rgba(#fff,.2)
