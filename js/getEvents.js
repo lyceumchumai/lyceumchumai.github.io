@@ -2,7 +2,6 @@ import data from "../data/events.json" assert { type: "json" };
 
 const events = document.querySelector(".events .row")
 events.innerHTML = ""
-console.log(data)
 for(let event of data.events) {
   events.innerHTML += `
   <div class="col col-md-4">
