@@ -8,10 +8,35 @@
     justify-content: center
 
   .event
-    background: #fff
+    cursor: default
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover 
     width: 352px
     height: 197px
     transition: .1s ease-in
     margin-bottom: 55px
+    position: relative
+    overflow: hidden
+    text-align: center
+    color: #fff
+    text-shadow: 1px 1px 8px rgba(#000 , .5)
+    &-title
+      font-size: 1.25rem
+      color
+    &-description
+      font-size: 1.1rem
     &:hover
       transform: scale(110%)
+      & .event__content
+        bottom: 0
+    &__content
+      content: ""
+      transition: all .1s ease-in
+      display: block
+      position: absolute
+      width: 100%
+      height: 100%
+      bottom: -100%
+      background: rgba($secondaryColor, .5)
+

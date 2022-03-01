@@ -1,4 +1,4 @@
-import data from "../dist/staff.json" assert { type: "json" };
+import data from "../data/staff.json" assert { type: "json" };
 
 const table = document.querySelector(".staff-table")
 table.innerHTML = ""
