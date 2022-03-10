@@ -1,9 +1,9 @@
-import data from "../data/staff.json" assert { type: "json" };
+import data from "../data/staff.json" assert { type: "json" }
 
 const table = document.querySelector(".staff-table")
 table.innerHTML = ""
 
-for(let item of data.staff) {
+for (let item of data.staff) {
   table.innerHTML += `
     <tr>
       <td>${item.name}</td>

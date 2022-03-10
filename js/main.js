@@ -1,4 +1,4 @@
-import Scroller from "../dist/scroller-es6.min.js";
+import Scroller from "../dist/scroller-es6.min.js"
 
 const navToggler = document.querySelector(".nav-toggler")
 const navList = document.querySelector(".nav ul")
@@ -11,12 +11,12 @@ const toggleNavMenu = () => {
 }
 
 navToggler.addEventListener("click", toggleNavMenu)
-for(let item of navItems) {
+for (let item of navItems) {
   item.addEventListener("click", toggleNavMenu)
 }
 
 new Scroller({
   btnSelector: ".scroll-to",
   btnAttr: "data-scroll",
-  btnPreventDefault: true
-});
+  btnPreventDefault: true,
+})

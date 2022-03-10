@@ -1,8 +1,8 @@
-import data from "../data/events.json" assert { type: "json" };
+import data from "../data/events.json" assert { type: "json" }
 
 const events = document.querySelector(".events .row")
 events.innerHTML = ""
-for(let event of data.events) {
+for (let event of data.events) {
   events.innerHTML += `
   <div class="col col-md-4">
     <div class="event" style="background-image: url(${event.background})">
@@ -14,4 +14,3 @@ for(let event of data.events) {
   </div>
   `
 }
-
