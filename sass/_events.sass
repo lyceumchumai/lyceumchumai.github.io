@@ -1,6 +1,7 @@
 .events
   padding-bottom: 55px 
   background: url("../img/events.jpg") no-repeat center / cover
+  text-align: center
   .section-title 
     color: #fff
   .col
@@ -22,10 +23,21 @@
     color: #fff
     text-shadow: 1px 1px 8px rgba(#000 , .5)
     &-title
-      font-size: 1.25rem
-      color
+      font-size: 2rem
+      position: absolute
+      top: -100%
+      margin-right: 16px
+      margin-left: 16px
+    &-date
+      font-size: 1.5rem
+      position: absolute
+      text-align: right
+      text-decoration: underline
+      bottom: 110%
+      right: 5%
     &-description
-      font-size: 1.1rem
+      font-size: 1rem
+      padding: 5px
     &:hover
       transform: scale(110%)
       & .event__content
