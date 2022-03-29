@@ -1,22 +1,16 @@
 {
   "events": [
     {
-      "background": "../img/intro.jpg",
-      "title": "Мэрцишор",
-      "date": "16 january 16:00",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "background": "https://newsmaker.md/wp-content/uploads/2019/08/Bac-2017-faut-il-se-fier-aux-listes-de-sujets-probables-2-250x145.jpg",
+      "title": "Предтестирование 9 класс",
+      "date": "29 марта - 7 апреля",
+      "description": "<ul align='left'><li>29 марта - Румынский язык и литература</li><li>31 марта - Математика</li><li>5 апреля - Язык обучения</li><li>7 апреля - История румын и всеобщая история</li></ul>"
     },
     {
-      "background": "../img/intro.jpg",
-      "title": "Волейбол",
-      "date": "15.05.2020 14:00",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    },
-    {
-      "background": "../img/intro.jpg",
-      "title": "Шахматы",
-      "date": "15 decemer 2020",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "background": "http://www.vkpress.ru:443/upload/iblock/fff/ffff8b09e7aae5d932857390b35c5ea4.jpg",
+      "title": "Предтестирование 12 класс",
+      "date": "28 марта - 8 апреля",
+      "description": "<ul align='left'><li>28 марта - Румынский язык и литература</li><li>30 марта - Язык обучения</li><li>1 апреля - Иностранный язык</li><li>4 апреля - История румын и всеобщая история</li><li>6 апреля - Дисциплина по выбору</li><li>8 апреля - Родной язык</li></ul>"
     }
   ]
 }
