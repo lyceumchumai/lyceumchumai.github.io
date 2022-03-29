@@ -8,6 +8,8 @@ if(data.events.length) {
     <div class="col col-md-4">
       <div class="event" style="background-image: url(${event.background})">
         <div class="event__content">
+          <div class="event-back">
+          </div>
           <h2 class="event-title">${event.title}</h2>
           <i class="event-date">${event.date}</i>
           <div class="event-description">${event.description}</div>
