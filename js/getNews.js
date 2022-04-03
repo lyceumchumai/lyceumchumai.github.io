@@ -5,7 +5,7 @@ news.innerHTML = ""
 if(data.news.length) {
   for (let item of data.news) {
     news.innerHTML += `
-    <div class="col col-md-4">
+    <div class="col col-lg-4">
       <div class="news__item" style="background-image: url(${item.background})">
         <div class="news__item__content">
           <div class="news__item-back">
