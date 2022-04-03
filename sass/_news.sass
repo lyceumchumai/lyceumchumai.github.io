@@ -1,4 +1,4 @@
-.events
+.news
   padding-bottom: 55px 
   background: url("../img/events.webp") no-repeat center / cover
   text-align: center
@@ -8,7 +8,7 @@
     display: flex
     justify-content: center
 
-  .event
+  &__item
     cursor: default
     background-repeat: no-repeat
     background-position: center
@@ -46,7 +46,7 @@
       padding: 5px
     &:hover
       transform: scale(110%)
-      & .event__content
+      & .news__item__content
         bottom: 0
     &__content
       content: ""
