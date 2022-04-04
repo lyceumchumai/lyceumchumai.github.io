@@ -6,7 +6,7 @@ window.addEventListener("load", () => {
   if (data.images.length) {
     for (let image of data.images) {
       gallery.innerHTML += `
-      <div class="col col-md-4">
+      <div class="col col-lg-4 col-md-6">
         <a href="${image.url}" data-lity>
           <div class="image__wrapper" style="background-image: url(${image.url})"></div>
         </a>
