@@ -45,7 +45,9 @@
       font-size: 1rem
       padding: 5px
     &:hover
-      transform: scale(110%)
+      transform: scale(105%)
+      @media screen and (min-width: 576px)
+        transform: scale(110%)
       & .news__item__content
         bottom: 0
     &__content
