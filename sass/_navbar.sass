@@ -1,11 +1,23 @@
 .navbar
   &-brand
-    display: none
+    display: flex
     justify-content: center
     background: rgba(#000, .8)
-    padding: 19px 0
-    @media screen and (min-width: 768px)
-        display: flex
+    height: 166px
+    &__wrapper
+      display: flex
+      overflow: hidden
+      flex-direction: column
+      transition: margin .5s ease-in-out
+      img
+        width: 128px
+        height: 128px
+        margin: 19px
+        cursor: pointer
+      .dark
+        background: rgba(#fff, .5)
+        border-radius: 50%
+
   .nav
     // background: linear-gradient(90deg, $secondaryColor 0%, lighten($secondaryColor, 10%) 47%, $primaryColor 100%)
     background: linear-gradient(90deg, rgba($secondaryColor,.9) 0%, lighten(rgba($secondaryColor,.9), 10%) 47%, rgba($primaryColor,.9) 100%)
@@ -50,3 +62,6 @@
           text-transform: uppercase
           &:hover
             background-color: rgba(#fff,.2)
+.theme-dark
+  &-brand
+    background: red
