@@ -19,6 +19,6 @@ window.addEventListener("load", () => {
       `
     }
   } else {
-    news.innerHTML = "<h2 style='width: 100%'>¯\\_(ツ)_/¯</h2>"
+    news.innerHTML = "<h2 style='width: 100%; color: #fff'>¯\\_(ツ)_/¯</h2>"
   }
 })
