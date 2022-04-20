@@ -5,6 +5,7 @@
     align-items: center
     background: rgba(#000, .8)
     height: 166px
+    position: relative
     &__wrapper
       display: flex
       flex-direction: column
@@ -25,7 +26,25 @@
         border-radius: 50%
       .light
         border: 1px
+  &-splash
+    color: #ffe800
+    font-weight: 700
+    text-shadow: 1px 1px 1px #000, -1px -1px 1px #000
+    position: absolute
+    pointer-events: none
+    text-align: center
+    top: 50%
+    left: 0
+    transform: rotate(-45deg)
+    width: 256px
+    animation: shaking 1s ease-in-out infinite alternate
 
+    @keyframes shaking
+      0%
+        transform: rotate(-45deg) scale(100%)
+        opacity: .9
+      100%
+        transform: rotate(-44deg) scale(105%)
   .nav
     // background: linear-gradient(90deg, $secondaryColor 0%, lighten($secondaryColor, 10%) 47%, $primaryColor 100%)
     background: linear-gradient(90deg, rgba($secondaryColor,.9) 0%, lighten(rgba($secondaryColor,.9), 10%) 47%, rgba($primaryColor,.9) 100%)
