@@ -51,6 +51,7 @@
         display: flex
         justify-content: center
         flex-direction: column
+        position: relative
     &-toggler
       color: #fff
       font-size: 2rem
@@ -62,14 +63,22 @@
     ul
       margin: 0
       padding: 0
-      display: none
+      opacity: 0
+      transition: opacity .1s ease-in
       flex-direction: column
       justify-content: center
+      position: absolute
+      top: 100%
+      background: rgba(#1B1D1E, .95)
+      width: 100%
       &.open
-        display: flex
+        opacity: 1
       @media screen and (min-width: 768px)
           flex-direction: row
           display: flex
+          position: static
+          background: none
+          opacity: 1
       flex-wrap: wrap
       li
         list-style-type: none
