@@ -46,3 +46,9 @@ new Scroller({
   btnAttr: "data-scroll",
   btnPreventDefault: true,
 })
+
+const clipboard = new ClipboardJS('.copy');
+
+clipboard.on('success', function(e) {
+    alert("Скопировано")
+});
