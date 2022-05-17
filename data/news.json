@@ -1,4 +1,10 @@
 {
   "news": [
+    {
+      "title" : "Мы за мир на всей планете!",
+      "description" : "Мы за то, чтобы всегда все улыбались",
+      "date" : "18.04.2022",
+      "background" : "https://www.vaticannews.va/content/dam/vaticannews/multimedia/2021/03/21/AdobeStock_31258129.jpg/_jcr_content/renditions/cq5dam.thumbnail.cropped.750.422.jpeg"
+    }
   ]
 }
