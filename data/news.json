@@ -1,22 +1,10 @@
 {
   "news": [
-    {
-      "title" : "Мы за мир на всей планете!",
-      "description" : "Мы за то, чтобы всегда все улыбались",
-      "date" : "18.04.2022",
-      "background" : "https://www.vaticannews.va/content/dam/vaticannews/multimedia/2021/03/21/AdobeStock_31258129.jpg/_jcr_content/renditions/cq5dam.thumbnail.cropped.750.422.jpeg"
-    },
-     {
-      "title" : "Никто не забыт, ничто не забыто!",
-      "description" : "",
-      "date" : "09.05.2022",
-      "background" : "https://lh3.googleusercontent.com/eBRTWlmN-CwyGXQBJyRt7gjZZIrZ6WjYlikLdIeOwszstv0QQvL4Za7dYNJpt30Xv1YQk5QV8ESriyll4MRpzqSB4kDhfw1iiLSUdhb2OpONio3qP19-_OpN7BVyObd_7PfUKs7k23o6l3HpwA-pK-t-keZhSfDpvTQjj8rBdHHrkmEalO1xDCfKSqzR-91dsuG3vQefB5ZRy6aDChIEGK092f0AvT_9GwecbZl3wanVhJ8_su0hiRUnXPQ5j2H_7lEOW_dd-j9dI-Z1OG7eOrBJe6t9WDps3wn51wTliIQO501ffxANlv4GmDW4escQsRhAe1-SB785Ze-xF4BdHXqIWJc9N8pBOa3k4VNxEFcdTu03DkXKXqfNBWU0e_LXL0iQzRMQdL7YAZiYW9pA58t7XM0psdqFAN0CMApokGhdwOdY3MiUsi8EYcNowsubC31YbpD4cxlhf_KIe3Blo5jQDn5pazPcQGhe8Gtgb8Wp-QB8fF4j0g58ydw8YqUD7xoB0oAFxmH-8il9Xlp76rXhvFqNAKwlmqfMk_Ybo00NlBafC4a4_g0SBOMQaC8jZEijlbXPvTGgnFm9jdqhLhXqRhx5bAuuln_yRRk2_bfYsqH8YMT18WiqF8nAmE8mFoNnQtrnobo2CEHPDs7S-Aq9i29EW9sHMGIgdnE32ombDadKYpHUNNJCy-w9nD35vyxwYqlGVRIHGWQ4aBG2UN5Z-KjWJ7YjxMMAwNw0wFBa92kwm_QOe9vqNiz8-Q=w1440-h648-no?authuser=0"
-    },
-     {
-      "title" : "Gala Olimpicilor 2022",
-      "description" : "Спасибо! УОКТ РС Тараклия за организацию мероприятия 'Gala Olimpicilor'",
-      "date" : "13.05.2022",
-      "background" : "https://lh3.googleusercontent.com/rvHJ8JfqDVtPF9jPsXPyjHmSJlu7exV6C2xKECi7i5AyJfDdCUX74TeKc1RD3Tb5shOqaA-spZKJ8ofvqsURYVezf2mKIeLskQ2bw3r1LUHbDmcD3EsVmLLOqkGJGQ5YWuku-E7llirYX1J6Eh8tGeHCRo_zFHMH13kdhNjrAJowdVuMoSzUChNIiyYNYfM22HY8kqckU1pX7N3j0wkGW6ovGGiVpzZJ2k2IZ_XDhv-cTs3fNVPVn6n-JIWt4ONGgxWo8ZKnYFSCDekQtf4RcPPwa5gJh21jkh3JOTfxsGaF2JetXvkjUFqU5vhPtgDC_PpfYVfDC2-sBkjZgWjXQBgHf5mugxxpMX7G8ktIPMAFnNm_uMac1kdeZD6jOLQLwS6dhCc-_TP7liE1qSQQ6ACmvgQ_jaVLYYOJVItqLDWx3YGM0J41afW0jPTvDD5jvdjvgQi7HeOhwcL9ll_StPWqlBMHxBuUT20vF8eAuumO8o4VKKZ1txV5c9rIAqMNI5ZtC5y_eaCbCsb9lBmoX8GfzkOFJ6bnHA8JSfOT7kVeAbuKoQbqfFQ3qqDbMNmPnlb605Boq8YI5TU_hsxTVBE2OwGoIr479sN3-6C8cZBLFx_2DttvYVOLLp_bmouJ2uv5nhe1GJ4CzikG1DmXxQjqSLfn4Dp4hVTWUKVOeGk5doDwxCCfE6FJXdauEWXoTZdbKqKivxNdSGbSxh0eCbA31EQkqee-A4A7cUugz46uOM3hAT0FKouqp0Fs0g=w316-h701-no?authuser=0"
-    }
+//    {
+//      "title" : "",
+//      "description" : "",
+//      "date" : "",
+//      "background" : ""
+//    }
   ]
 }
